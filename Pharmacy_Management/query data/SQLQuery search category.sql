@@ -1,0 +1,9 @@
+﻿ CREATE PROCEDURE  SP_SEARCHCATEGORIES
+ @SEARCH VARCHAR(50)
+ AS
+ SELECT Cat_ID AS ' CATEGORY ID', Cat_Name AS 'Category Name'
+ 
+  FROM Category
+  WHERE Cat_ID LIKE '%' + @SEARCH +'%' OR Cat_Name LIKE '%' + @SEARCH +'%'
+
+ RETURN

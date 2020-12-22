@@ -1,0 +1,9 @@
+﻿create procedure SP_SELECTALLACTIVEMATERIAL
+
+AS
+SELECT AM.Am_ID AS 'ACTIVE MATERIAL ID ',
+AM.Am_name 'ACTIVE MATERIAL NAME ' ,
+AM.Am_Desecription ' DESICRIPTION '
+ FROM  tbl_activeMaterial AM
+
+RETURN

@@ -1,0 +1,9 @@
+﻿CREATE PROCEDURE SP_SUPPLIERUPDATE
+@ID INT ,
+@Su_Name VARCHAR(50),
+@Su_Mobile VARCHAR(50) 
+
+AS
+UPDATE  tbl_Suppliers SET Su_Name=@Su_Name ,Su_Mobile=@Su_Mobile
+WHERE Su_ID=@ID
+RETURN

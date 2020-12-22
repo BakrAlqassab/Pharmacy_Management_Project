@@ -1,0 +1,4 @@
+﻿CREATE PROCEDURE SP_SELECTALLCATEGORIES
+AS
+SELECT Cat_id'Category ID' , Cat_Name'Category Name' FROM category
+RETURN

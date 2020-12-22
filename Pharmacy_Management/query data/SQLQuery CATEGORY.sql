@@ -1,0 +1,4 @@
+﻿CREATE PROCEDURE SP_ADDCATEGORY
+@CAT_NAME varchar(50)
+AS
+INSERT INTO Category(Cat_name) values (@CAT_NAME)
