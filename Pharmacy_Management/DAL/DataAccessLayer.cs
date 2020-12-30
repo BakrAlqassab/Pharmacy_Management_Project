@@ -14,13 +14,11 @@ namespace Pharmacy_Management.DAL
         static string curentDirectory = Directory.GetCurrentDirectory();
 
 
-        //private static string con = @"Data Source=.(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Pharmacy.mdf;Integrated Security=True;User Instance=True";
-        //    
-         private static string con = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=B:\My_done_projects\Pharmacy_Management\Pharmacy_Management\Pharmacy.mdf;Integrated Security=True;Connect Timeout=30";
+      
+         private static string con = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=YourProjectlocationPath\Pharmacy_Management\Pharmacy_Management\Pharmacy.mdf;Integrated Security=True;Connect Timeout=30";
 
 
-        //private static string con = new SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=B:\My_done_projects\Pharmacy_Management\Pharmacy_Management\bin\Debug\Pharmacy.mdf;Integrated Security=True;Connect Timeout=30");
-
+    
         //private static string con = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Pharmacy.mdf;Integrated Security=True;Connect Timeout=30";
         //                                                  folder name
         public static SqlConnection cn;
