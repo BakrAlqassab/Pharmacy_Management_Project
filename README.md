@@ -1,6 +1,6 @@
 # Pharmacy_Management_Project
 
-The project is recently in BitBucket repository but moved to GitHub to shareing.
+The project is recently pushed on BitBucket repository but moved to GitHub to sharing.
 
 The project is to use need to move the SQL path first.
 on DAL/DataacAccessLayer.css
